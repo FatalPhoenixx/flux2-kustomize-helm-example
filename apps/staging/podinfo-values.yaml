@@ -16,4 +16,5 @@ spec:
           paths:
             - path: /
               pathType: ImplementationSpecific
-  replicas: 2
+    env:
+      PODINFO_SECRET: podinfo_key
